@@ -1,40 +1,52 @@
-# Dự án Spotifo
+# 🎧 Dự án Spotifo
 
-Dự án Music là một ứng dụng cho phép người dùng tìm kiếm, phát nhạc, và quản lý playlist cá nhân. Dự án sử dụng **React** cho frontend và **Node.js** cho backend.
+**Spotifo** là một ứng dụng phát nhạc trực tuyến, cho phép người dùng tìm kiếm, phát nhạc và quản lý playlist cá nhân. Dự án được phát triển gồm hai phần: **Frontend với React** và **Backend với Node.js**.
 
-## Mục tiêu
+---
 
-- Cung cấp nền tảng phát nhạc trực tuyến cho người dùng.
-- Cho phép người dùng tìm kiếm bài hát, thêm vào playlist cá nhân.
-- Backend xử lý API để lấy dữ liệu bài hát và playlist.
-- Quản lý playlist và các bài hát yêu thích.
-  
-## Công nghệ sử dụng
+## 🚀 Mục tiêu
 
-### Frontend (React)
+- Cung cấp nền tảng phát nhạc hiện đại, dễ sử dụng.
+- Hỗ trợ người dùng tìm kiếm bài hát, phát nhạc và tạo playlist cá nhân.
+- Quản lý danh sách nhạc yêu thích và thông tin tài khoản.
+- Kết nối frontend và backend thông qua RESTful API.
 
-- **React**: Thư viện JavaScript để xây dựng giao diện người dùng.
-- **TypeScript**: Superset của JavaScript giúp phát triển mã nguồn dễ dàng và bảo mật hơn.
-- **Vite**: Công cụ build mới và nhanh chóng cho ứng dụng web.
-- **Axios**: Thư viện JavaScript để gửi yêu cầu HTTP đến backend.
-- **CSS/SCSS**: Để tạo kiểu dáng đẹp cho giao diện người dùng.
+---
 
-### Backend (Node.js)
+## 🛠️ Công nghệ sử dụng
 
-- **Node.js**: Chạy ứng dụng backend trên nền tảng JavaScript.
-- **Express**: Web framework cho Node.js để dễ dàng xây dựng API.
-- **MongoDB**: Cơ sở dữ liệu NoSQL để lưu trữ thông tin người dùng, bài hát, và playlist.
-- **Mongoose**: Thư viện để kết nối Node.js với MongoDB và thực hiện các thao tác CRUD.
-- **JWT (JSON Web Token)**: Để xác thực người dùng và bảo vệ các API.
--** Bạn phải cấu hình thêm file .env (bao gồm node_env,host,post,mongo_url,jwt.. để chạy
-## Cài đặt và chạy dự án
+### 📱 Frontend (React + Vite + TypeScript)
 
-### Cài đặt
+- **React** – Thư viện xây dựng giao diện người dùng hiện đại.
+- **TypeScript** – Giúp mã nguồn an toàn và dễ bảo trì hơn.
+- **Vite** – Công cụ build nhanh, hỗ trợ phát triển frontend mượt mà.
+- **Axios** – Gửi request từ frontend đến backend.
+- **SCSS/CSS** – Tùy biến giao diện, tạo phong cách đẹp mắt.
 
-1. **Clone repository** về máy tính của bạn:
-   ```bash
-   git clone https://github.com/dnhat106/music.git
-2. Mở Terminal 
-RUN :npm install
+### 🔧 Backend (Node.js + Express + MongoDB)
+
+- **Node.js** – Nền tảng chạy JavaScript phía server.
+- **Express** – Framework nhẹ giúp xây dựng API một cách nhanh chóng.
+- **MongoDB** – Cơ sở dữ liệu NoSQL linh hoạt, lưu trữ dữ liệu người dùng và playlist.
+- **Mongoose** – Thư viện ORM giúp thao tác dễ dàng với MongoDB.
+- **JWT (JSON Web Token)** – Xác thực người dùng, bảo vệ route cần đăng nhập.
+
+> 💡 **Lưu ý:** Cần tạo file `.env` cho backend với các biến môi trường 
+# Clone repository 
+git clone https://github.com/dnhat106/music.git
+cd music
+cd fe
+# Cài đặt dependencies
+npm install
+# Chạy frontend
 npm run dev
-Vậy là dự án đã chạy được rồi
+Tiêp tới backend
+Mở thêm 1 terminal trong project
+cd be
+# Cài đặt dependencies
+npm install
+# Chạy backend
+npm run dev
+
+
+
