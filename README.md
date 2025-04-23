@@ -33,7 +33,7 @@
 
 > 💡 **Lưu ý:** Cần tạo file `.env` cho backend với các biến môi trường 
 # Clone repository 
-git clone https://github.com/dnhat106/music.git
+git clone https://github.com/dnhat106/music_doan.git
 cd music
 cd fe
 # Cài đặt dependencies
