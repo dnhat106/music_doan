@@ -1,53 +1,49 @@
-# 🎧 Dự án Spotifo
+🎧 Spotifo – Ứng dụng phát nhạc trực tuyến
+Spotifo là một ứng dụng phát nhạc hiện đại, cho phép người dùng tìm kiếm, phát nhạc và quản lý playlist cá nhân. Dự án bao gồm hai phần: Frontend (React) và Backend (Node.js).
 
-**Spotifo** là một ứng dụng phát nhạc trực tuyến, cho phép người dùng tìm kiếm, phát nhạc và quản lý playlist cá nhân. Dự án được phát triển gồm hai phần: **Frontend với React** và **Backend với Node.js**.
+🚀 Mục tiêu
+Xây dựng nền tảng phát nhạc trực tuyến dễ sử dụng và thân thiện.
 
----
+Hỗ trợ tìm kiếm, phát bài hát, tạo và quản lý playlist cá nhân.
 
-## 🚀 Mục tiêu
+Cho phép người dùng lưu danh sách nhạc yêu thích, quản lý thông tin tài khoản.
 
-- Cung cấp nền tảng phát nhạc hiện đại, dễ sử dụng.
-- Hỗ trợ người dùng tìm kiếm bài hát, phát nhạc và tạo playlist cá nhân.
-- Quản lý danh sách nhạc yêu thích và thông tin tài khoản.
-- Kết nối frontend và backend thông qua RESTful API.
+Kết nối frontend và backend thông qua RESTful API.
 
----
+🛠️ Công nghệ sử dụng
+📱 Frontend (React + Vite + TypeScript)
+React – Thư viện UI mạnh mẽ và linh hoạt.
 
-## 🛠️ Công nghệ sử dụng
+TypeScript – Cải thiện độ an toàn và khả năng bảo trì mã nguồn.
 
-### 📱 Frontend (React + Vite + TypeScript)
+Vite – Công cụ build hiện đại, khởi động nhanh.
 
-- **React** – Thư viện xây dựng giao diện người dùng hiện đại.
-- **TypeScript** – Giúp mã nguồn an toàn và dễ bảo trì hơn.
-- **Vite** – Công cụ build nhanh, hỗ trợ phát triển frontend mượt mà.
-- **Axios** – Gửi request từ frontend đến backend.
-- **SCSS/CSS** – Tùy biến giao diện, tạo phong cách đẹp mắt.
+Axios – Gửi HTTP request từ frontend đến backend.
 
-### 🔧 Backend (Node.js + Express + MongoDB)
+SCSS/CSS – Tùy biến giao diện người dùng đẹp mắt.
 
-- **Node.js** – Nền tảng chạy JavaScript phía server.
-- **Express** – Framework nhẹ giúp xây dựng API một cách nhanh chóng.
-- **MongoDB** – Cơ sở dữ liệu NoSQL linh hoạt, lưu trữ dữ liệu người dùng và playlist.
-- **Mongoose** – Thư viện ORM giúp thao tác dễ dàng với MongoDB.
-- **JWT (JSON Web Token)** – Xác thực người dùng, bảo vệ route cần đăng nhập.
+🔧 Backend (Node.js + Express + MongoDB)
+Node.js – Nền tảng chạy JavaScript phía server.
 
-> 💡 **Lưu ý:** Cần tạo file `.env` cho backend với các biến môi trường 
-# Clone repository 
+Express – Framework nhẹ, dễ dùng để xây dựng REST API.
+
+MongoDB – Cơ sở dữ liệu NoSQL linh hoạt, lưu trữ người dùng và playlist.
+
+Mongoose – ORM cho MongoDB, giúp thao tác dữ liệu dễ dàng.
+
+JWT (JSON Web Token) – Xác thực người dùng, bảo vệ các route riêng tư.
+
+📦 Hướng dẫn cài đặt
+🔑 Lưu ý: Tạo file .env trong thư mục be/ để cấu hình các biến môi trường.
+
+1. Clone repository
 git clone https://github.com/dnhat106/music_doan.git
-# Chạy ứng dụng
-Mở terminal
-cd fe
-# Cài đặt dependencies
+2. Cài đặt và chạy Frontend
+cd music_doan/fe
 npm install
-# Chạy frontend
 npm run dev
-Tiêp tới backend
-Mở thêm 1 terminal trong project
-cd be
-# Cài đặt dependencies
+3. Cài đặt và chạy Backend
+Mở một terminal khác:
+cd music_doan/be
 npm install
-# Chạy backend
 npm run dev
-
-
-
