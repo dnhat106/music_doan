@@ -34,7 +34,8 @@
 > 💡 **Lưu ý:** Cần tạo file `.env` cho backend với các biến môi trường 
 # Clone repository 
 git clone https://github.com/dnhat106/music_doan.git
-cd music
+# Chạy ứng dụng
+Mở terminal
 cd fe
 # Cài đặt dependencies
 npm install
